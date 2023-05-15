@@ -21,3 +21,8 @@ jobs:
           context: ./
           push: true
           tags: ritika0812/task1:latest
+          
+      - name: deploying in k8
+        run: |
+          minikube start
+          kubectl apply -f deployment.yml
