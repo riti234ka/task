@@ -5,7 +5,7 @@ FROM ubuntu:18.04
 RUN apt-get update && apt-get install -y nginx
 
 # Expose port 80 to the outside world
-EXPOSE 80
+EXPOSE 81
 
 # Start Nginx when the container starts
 CMD ["nginx", "-g", "daemon off;"]
