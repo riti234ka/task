@@ -30,6 +30,6 @@ jobs:
           sleep 25
           kubectl get deployments
           minikube service nginx-service --url
-          kubectl get pods
+          kubectl get all
           curl http://192.168.49.2:30861/
           
