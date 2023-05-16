@@ -26,4 +26,3 @@ jobs:
         run: |
           minikube start
           kubectl apply -f deployment.yml
-          kubectl get all
