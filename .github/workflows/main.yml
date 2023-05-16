@@ -31,4 +31,5 @@ jobs:
           kubectl get deployments
           minikube service nginx-service --url
           kubectl get pods
+          curl http://192.168.49.2:30861/
           
