@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ritika0812/task1:v1
+        image: ritika0812/task1:latest
         ports:
         -  containerPort: 8081 
